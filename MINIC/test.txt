@@ -1,0 +1,20 @@
+i=0;
+do{
+	c=i+2;
+	i=i+1;
+	if(i==4){
+		continue;
+	}
+} while(i<5);
+
+int foo(int f,int g){
+	h =0;
+	h=f+g*g;
+	return h;
+}
+
+b=3;
+d=foo(4,3);
+e=0;
+for (d=1; d<5; d=d+1){
+e=d;}
